@@ -1,0 +1,26 @@
+# Settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Swift Miami Meetup
+description:
+    Swift Miami is a group devoted to discussion of the Swift programming
+    language. The main focus is developing for Apple platforms but we also
+    discuss how Swift can be leveraged in other areas.
+
+    We hope you can join us!
+twitter_username: SwiftDevsMiami
+github_username:  swift-miami
+
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-dinky
+plugins:
+  - jekyll-feed
+
+
+# Serve Command Options
+livereload: true
